@@ -1,4 +1,4 @@
-# heat_wave_development
+# Heat wave development
 This program will find the heatwaves using NCEP/NCAR reanalysis data and then create graph and video on the heat wave development.
 
 The objective of this project is to:
