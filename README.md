@@ -23,5 +23,7 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 
 
 
-
+https://user-images.githubusercontent.com/15905401/115473320-6bc47100-a233-11eb-8361-625b6f53c6fe.mp4
+https://user-images.githubusercontent.com/15905401/115473338-741cac00-a233-11eb-911d-401df1d11493.mp4
+https://user-images.githubusercontent.com/15905401/115473371-872f7c00-a233-11eb-81e8-7507d120d2ce.mp4
 https://user-images.githubusercontent.com/15905401/115473084-fce71800-a232-11eb-9a50-9bce40e1b83f.mp4
