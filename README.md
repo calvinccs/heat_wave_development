@@ -23,3 +23,5 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 
 
 ![Hong Kong](https://user-images.githubusercontent.com/15905401/115422838-31d47a00-a1f5-11eb-9173-6094135ff2d8.png)
+![Paris](https://user-images.githubusercontent.com/15905401/115472984-c7dac580-a232-11eb-8390-add8a89c9501.png)
+
