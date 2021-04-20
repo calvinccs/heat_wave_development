@@ -21,9 +21,7 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 6) Locate the Geopotential heights nc files in 'climate_data/hgt/'
 
 
-
-
-https://user-images.githubusercontent.com/15905401/115473320-6bc47100-a233-11eb-8361-625b6f53c6fe.mp4
+https://user-images.githubusercontent.com/15905401/115473731-1ccb0b80-a234-11eb-8e4c-39a90841b916.mp4
 
 https://user-images.githubusercontent.com/15905401/115473338-741cac00-a233-11eb-911d-401df1d11493.mp4
 
