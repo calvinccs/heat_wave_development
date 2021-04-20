@@ -11,8 +11,11 @@ The objective of this project is to:
    variables.
    
 Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 2 data:
-1) Surface temperature from 2011 to 2020
-2) Geopotential heights in 2020 (due to the size of data, we will concentrated on heat waves in 2020
-
-Additionally, there is a csv file contain lat lon information of major cities.
-Due to size matter, folders contain the NetCDF file will be included but not the actual nc files.
+1) Create a directory above the directory of this file, name it as 'climate_data'
+2) Download NCEP/NCAR reanalysis data:
+3) Surface temperature from 2011 to 2020 
+    (https://psl.noaa.gov/cgi-bin/db_search/DBListFiles.pl?did=61&tid=90982&vid=4237)
+4) Locate the Surface temperature nc files in 'climate_data/surface_air/'
+5) Geopotential heights in 2020 (due to the size of data, we will concentrated on heat waves in 2020
+    (https://psl.noaa.gov/cgi-bin/db_search/DBListFiles.pl?did=61&tid=90982&vid=1454)
+6) Locate the Geopotential heights nc files in 'climate_data/hgt/'
