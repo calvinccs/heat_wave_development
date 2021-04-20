@@ -21,4 +21,5 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 6) Locate the Geopotential heights nc files in 'climate_data/hgt/'
 
 
-![Hong_Kong](https://github.com/calvinccs/heat_wave_development/tree/main/Heat_wave_2020_06_19_HongKong/hw_012.png?raw=true)
+
+![Hong Kong](https://user-images.githubusercontent.com/15905401/115422838-31d47a00-a1f5-11eb-9173-6094135ff2d8.png)
