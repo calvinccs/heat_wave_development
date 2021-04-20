@@ -19,3 +19,6 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 5) Geopotential heights in 2020 (due to the size of data, we will concentrated on heat waves in 2020
     (https://psl.noaa.gov/cgi-bin/db_search/DBListFiles.pl?did=61&tid=90982&vid=1454)
 6) Locate the Geopotential heights nc files in 'climate_data/hgt/'
+
+
+![Hong_Kong](https://github.com/calvinccs/heat_wave_development/tree/main/Heat_wave_2020_06_19_HongKong/hw_012.png)
