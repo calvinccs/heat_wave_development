@@ -20,6 +20,7 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
     (https://psl.noaa.gov/cgi-bin/db_search/DBListFiles.pl?did=61&tid=90982&vid=1454)
 6) Locate the Geopotential heights nc files in 'climate_data/hgt/'
 
+<img width="675" alt="heat_wave_development_program" src="https://user-images.githubusercontent.com/15905401/115474069-8e0abe80-a234-11eb-8b88-f94a03346c9a.png">
 
 https://user-images.githubusercontent.com/15905401/115473731-1ccb0b80-a234-11eb-8e4c-39a90841b916.mp4
 
