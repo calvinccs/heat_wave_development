@@ -25,7 +25,7 @@ Additionally, there is a csv file contain lat lon information of major cities.
 # change thess variables for other analysis, e.g. target_location = Paris, New York etc.
 # pressure_level = 925
 
-target_location = 'New York' 
+target_location = 'Paris' 
 var = 'air'
 pressure_level = 850 # part 3
 before_event = 2
@@ -159,13 +159,17 @@ class gph_map(object):
         level = gph['level'][:].data
         p = int(np.where(level == p_level)[0])
 
-        lon = np.append(gph['lon'][:].data, gph['lon'][:].data[:7]+360)
+        lon = np.append(gph['lon'][:].data, gph['lon'][:].data[:9]+360)
         lat = gph['lat'][:].data
         target = city_dict[city]
         if target[0] < 0:
             target[0] = target[0] + 360
         margin = [round((target[0] - 15), 1), round((target[1] - 15), 1), 
                   round((target[0] + 15), 1), round((target[1] + 15), 1)]
+        if margin[0] <= 0:
+            margin[0] += 360
+            margin[2] += 360
+
         lon_m = np.where((lon > margin[0]-2.5) & (lon < margin[2]+2.5))[0]
         lon_m = np.where(lon_m >= 144, lon_m-144, lon_m)
         lat_m = np.where((lat > margin[1]-2.5) & (lat < margin[3]+2.5))[0]
@@ -175,7 +179,7 @@ class gph_map(object):
         hgt_max = 0
         hgt_profile = []
         for t in range(t_start, t_end+1):
-            if 0 in lon_m: # fix the lon at zero
+            if lon_m[-1] < lon_m[0]: # lon at zero in the plotting area
                 lon_p = np.where(lon_p < 300, lon_p + 360, lon_p)
                 hgt = gph['hgt'][t, 1, lat_m[0]:lat_m[-1]+1, np.r_[lon_m[0]:144, 0:lon_m[-1]+1]]
                 hgt_min = min(hgt_min, hgt.min())
