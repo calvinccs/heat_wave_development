@@ -26,3 +26,4 @@ Note that, to run this program, it is required to download NCEP/NCAR Reanalysis 
 
 ![Paris](https://user-images.githubusercontent.com/15905401/115472984-c7dac580-a232-11eb-8390-add8a89c9501.png)
 
+https://user-images.githubusercontent.com/15905401/115473084-fce71800-a232-11eb-9a50-9bce40e1b83f.mp4
